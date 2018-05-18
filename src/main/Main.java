@@ -27,7 +27,7 @@ public class Main {
 		// System.out.println(iter.next());
 		//
 		// for (Object obj : list)
-		// System.out.println(obj);
+		// System.out.println(obj);s
 		list.forEach(System.out::println);
 		Collections.sort(list, new Comparator<String>() {
 			@Override
